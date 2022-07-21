@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: lightgreen;
+}
+ @font-face {
+    font-family: Idroid ;
+    src: url(./fontes/idroid.otf);
+ }
+ main{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    min-width: 320px ;
+    max-width: 800px;
+    margin: auto;
+ }
+
+ picture img {
+    width: 92%;
+ }
+
+ header{
+    color: white;
+    background-image: linear-gradient(green,seagreen );
+ }
+ header h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+ }
+ header p{
+    padding-bottom: 15px;
+ }
+ nav ul li {
+    display: inline;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.menu a:link {
+    color: whitesmoke;
+}
+a:link {
+    color: seagreen;
+}
+a:hover {
+    color: green
+}
+.menu a:hover {
+    color: whitesmoke;
+}
+.menu a:visited {
+    color: lightgreen;
+}
+
+.historia {
+    text-align: center;
+}
+#h1{
+    font-size: 2em;
+}
+
+.title {
+    font-family: Idroid;
+    text-align: left;
+    color: seagreen;
+    padding: 15px;
+}
+.sub{
+    background-image: linear-gradient(lightgreen, white);
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+    font-size: 1em;
+}
+.video {
+    border: 2em;
+    border-style: solid;
+    border-color: seagreen;
+}
+
+.mais {
+    height: 100%;
+    width: 100%;
+    border: 5px;
+    border-style: solid;
+    background-color: palegreen;
+    border-color: seagreen;
+    border-radius: 10px;
+}
+.mais h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: seagreen;
+}
+.versoes {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 1em;
+    columns: 2;
+}
+.versoes ul {
+    list-style: none;
+    line-height: 180%;
+}
+
+footer p {
+    background-color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
